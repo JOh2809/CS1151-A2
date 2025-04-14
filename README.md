@@ -14,3 +14,6 @@ KEY CONCEPTS USED IN THIS PROJECT:
  - String Formatting and Output
  - UMD ID-Based Logic
  - Test Case Analysis
+
+
+This was brought over my Duluth domain. so the people can see these projects 
