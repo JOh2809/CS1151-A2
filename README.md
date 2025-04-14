@@ -1,6 +1,13 @@
 # CS1151-A2
 
 
+
+
+
+
+
+
+
 # This project reinforces the fundamentals of Python programming while applying algebraic 
 # problem-solving in a real-world context. It emphasizes readable formatting, basic user input, 
 # and mathematical operations. The program also includes three test cases: 
