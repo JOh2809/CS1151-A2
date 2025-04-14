@@ -1,0 +1,67 @@
+# A2-Calculate-a-Value
+# Name: Kane John
+# ID: 5824629
+
+#  This is my project for CS1151 A2: Calculate a Value
+
+
+# This program calculates and displays the slope-intercept equation of the line
+# that passes through two points on a 2-dimensional Cartesian coordinate system.
+
+print("This program will calculate and display the slope-intercept equation of the line that passes through two points.")
+
+# Input: X and Y coordinates for two points
+x1 = float(input("What is the X-coordinate of the first point: "))
+y1 = float(input("What is the Y-coordinate of the first point: "))
+x2 = float(input("What is the X-coordinate of the second point: "))
+y2 = float(input("What is the Y-coordinate of the second point: "))
+
+# Calculate the slope (m)
+slope = (y2 - y1) / (x2 - x1)
+# Calculate the y-intercept (b)
+intercept = y1 - slope * x1
+
+# Display the result
+print(f"The line through points ({x1}, {y1}) and ({x2}, {y2}) has slope-intercept equation:")
+print(f"y = {slope}x + {intercept}")
+
+# this program inforce the fundamentls of python programming while applying the alegbaric problem solving in a real world conetext. 
+# Since this class is the introduction to pyhton we have been taught how to maintain and keep well formatted code by itself 
+#  we have  also tailored this progam to our ID # 
+
+
+
+
+
+# The frist test case 
+C:\Users\jkane\PyCharmMiscProject\.venv\Scripts\python.exe C:\Users\jkane\PyCharmMiscProject\script.py 
+This program will calculate and display the slope-intercept equation of the line that passes through two points.
+What is the X-coordinate of the first point: 3
+What is the Y-coordinate of the first point: 6
+What is the X-coordinate of the second point: 9 
+What is the Y-coordinate of the second point: 5
+The line through points (3.0, 6.0) and (9.0, 5.0) has slope-intercept equation:
+y = -0.16666666666666666x + 6.5
+
+# the Second 
+
+C:\Users\jkane\PyCharmMiscProject\.venv\Scripts\python.exe C:\Users\jkane\PyCharmMiscProject\script.py 
+This program will calculate and display the slope-intercept equation of the line that passes through two points.
+What is the X-coordinate of the first point: 4
+What is the Y-coordinate of the first point: 5
+What is the X-coordinate of the second point: 7
+What is the Y-coordinate of the second point: 8
+The line through points (4.0, 5.0) and (7.0, 8.0) has slope-intercept equation:
+y = 1.0x + 1.0
+
+ # The Third 
+
+C:\Users\jkane\PyCharmMiscProject\.venv\Scripts\python.exe C:\Users\jkane\PyCharmMiscProject\script.py 
+This program will calculate and display the slope-intercept equation of the line that passes through two points.
+What is the X-coordinate of the first point: 2
+What is the Y-coordinate of the first point: 4
+What is the X-coordinate of the second point: 1
+What is the Y-coordinate of the second point: 3
+The line through points (2.0, 4.0) and (1.0, 3.0) has slope-intercept equation:
+y = 1.0x + 2.0
+
