@@ -1,16 +1,13 @@
 # CS1151-A2
 
+ PURPOSE OF THIS PROGRAM:
+ This program prompts the user to enter the coordinates of two points (x1, y1) and (x2, y2).
+ Based on the last digit of my UMD ID (which is 9), the program calculates the y-intercept (b) 
+ of the line that passes through the two points. It first calculates the slope (m) using the 
+ standard slope formula, then computes the y-intercept using the formula: b = y1 - m * x1.
+The program then displays the slope-intercept form of the line: y = mx + b.
 
-
-
-This project reinforces the fundamentals of Python programming while applying algebraic. 
-problem-solving in a real-world context. It emphasizes readable formatting, basic user input, 
-and mathematical operations. The program also includes three test cases: 
-(1) one using assigned input values, 
-(2) one using custom inputs, 
-(3) and an edge case to validate its robustness.
-
- KEY CONCEPTS USED IN THIS PROJECT:
+KEY CONCEPTS USED IN THIS PROJECT:
  - User Input
  - Arithmetic Calculations
  - Conditional Logic (Edge Case)
